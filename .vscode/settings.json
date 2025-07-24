@@ -1,9 +1,0 @@
-{
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "tailwindCSS.classFunctions": ["cva", "cx"],
-  "tailwindCSS.lint": {
-    "cssConflict": "ignore"
-  }
-}
