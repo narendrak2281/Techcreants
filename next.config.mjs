@@ -1,6 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Suppress punycode deprecation warnings
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.externals = config.externals || [];
+      config.externals.push({
+        punycode: 'punycode',
+      });
+    }
+
+    // Suppress deprecation warnings
+    config.infrastructureLogging = {
+      level: 'error',
+    };
+
+    return config;
+  },
   experimental: {
     // Enable if needed
     // typedRoutes: true,

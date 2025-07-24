@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 231 39% 20%;
@@ -113,6 +117,30 @@
 
   .container-custom {
     @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Header specific styles */
+  .logo-glow {
+    @apply shadow-lg shadow-white/20;
+  }
+
+  .nav-link-hover {
+    @apply relative overflow-hidden;
+  }
+
+  .nav-link-hover::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-tc-primary/20 to-tc-secondary/20 opacity-0 transition-opacity duration-300;
+  }
+
+  .nav-link-hover:hover::before {
+    @apply opacity-100;
+  }
+
+  /* Enhanced button hover effects */
+  .btn-enhanced:hover {
+    @apply shadow-xl shadow-tc-primary/25;
+    transform: translateY(-2px);
   }
 }
 

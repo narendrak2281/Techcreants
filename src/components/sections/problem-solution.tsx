@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import { useInView } from '@/hooks';
 import {
   AlertCircle,
   TrendingDown,
