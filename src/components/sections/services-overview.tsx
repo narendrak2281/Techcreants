@@ -12,7 +12,6 @@ import {
   ArrowRight,
   CheckCircle2,
   Users,
-  Zap,
   Globe,
   BarChart3,
   Rocket,

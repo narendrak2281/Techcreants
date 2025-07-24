@@ -1,3 +1,11 @@
+import {
+  Product,
+  Service,
+  CaseStudy,
+  ContactFormData,
+  AnalyticsEvent,
+} from './types';
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 class APIClient {
@@ -68,24 +76,24 @@ class APIClient {
   }
 
   // Lead Generation
-  async submitContactForm(data: any) {
+  async submitContactForm(data: ContactFormData) {
     return this.request('/api/v1/leads/', {
       method: 'POST',
       body: JSON.stringify(data),
     });
   }
 
-  async requestDemo(data: any) {
+  async requestDemo(data: ContactFormData) {
     return this.request('/api/v1/leads/', {
       method: 'POST',
-      body: JSON.stringify({ ...data, type: 'demo' }),
+      body: JSON.stringify({ ...data, leadType: 'demo' }),
     });
   }
 
-  async requestQuote(data: any) {
+  async requestQuote(data: ContactFormData) {
     return this.request('/api/v1/leads/', {
       method: 'POST',
-      body: JSON.stringify({ ...data, type: 'quote' }),
+      body: JSON.stringify({ ...data, leadType: 'quote' }),
     });
   }
 
@@ -112,7 +120,7 @@ class APIClient {
   }
 
   // Analytics
-  async trackEvent(event: string, data: any) {
+  async trackEvent(event: string, data: AnalyticsEvent['data']) {
     return this.request('/api/v1/analytics/track/', {
       method: 'POST',
       body: JSON.stringify({ event, data }),

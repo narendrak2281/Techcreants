@@ -11,13 +11,9 @@ import {
   TrendingUp,
   Shield,
   Zap,
-  Globe,
-  Smartphone,
   Monitor,
-  Database,
   Cloud,
 } from 'lucide-react';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 const products = [

@@ -1,5 +1,19 @@
 import { ReactNode } from 'react';
 
+// API Data types
+export interface ContactFormData {
+  name: string;
+  email: string;
+  company?: string;
+  message: string;
+  leadType?: 'contact' | 'demo' | 'quote';
+}
+
+export interface AnalyticsEvent {
+  event: string;
+  data: Record<string, unknown>;
+}
+
 export interface Product {
   id: string;
   name: string;

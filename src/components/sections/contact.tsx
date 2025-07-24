@@ -15,11 +15,7 @@ import {
   Linkedin,
   Twitter,
   Github,
-  ArrowRight,
   Calendar,
-  Users,
-  Zap,
-  Shield,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 

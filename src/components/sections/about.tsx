@@ -8,18 +8,15 @@ import {
   Target,
   Heart,
   ArrowRight,
-  CheckCircle2,
   Globe,
   Code,
   Lightbulb,
   Shield,
   TrendingUp,
   Clock,
-  Star,
   Coffee,
   Zap,
 } from 'lucide-react';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 const values = [
