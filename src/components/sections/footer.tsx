@@ -21,7 +21,7 @@ import {
   BookOpen,
   MessageSquare,
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../ui/button';
 
 const companyLinks = [
   { title: 'About Us', href: '#about', icon: Users },

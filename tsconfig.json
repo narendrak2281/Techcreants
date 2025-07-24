@@ -19,16 +19,7 @@
     ],
     "target": "es2022",
     "useDefineForClassFields": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/lib/*": ["./src/lib/*"],
-      "@/app/*": ["./src/app/*"],
-      "@/types": ["./src/lib/types"],
-      "@/utils": ["./src/lib/utils"]
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules", ".next", "out", "dist"]
