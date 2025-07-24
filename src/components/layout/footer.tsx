@@ -94,9 +94,9 @@ export function Footer() {
                 <Link
                   key={item.value}
                   href={item.href}
-                  className="flex items-center space-x-3 text-gray-300 transition-colors hover:text-white"
+                  className="group flex items-center space-x-3 text-gray-300 transition-all duration-300 hover:rotate-1 hover:scale-105 hover:text-white"
                 >
-                  <item.icon className="h-4 w-4" />
+                  <item.icon className="h-4 w-4 transition-all duration-300 group-hover:scale-125 group-hover:text-tc-primary" />
                   <span className="text-sm">{item.value}</span>
                 </Link>
               ))}
@@ -112,7 +112,7 @@ export function Footer() {
                   <li key={`${section.title}-${index}`}>
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-300 transition-colors hover:text-white"
+                      className="group relative inline-block text-sm text-gray-300 transition-all duration-300 hover:rotate-1 hover:scale-110 hover:text-white"
                     >
                       {link.label}
                     </Link>
@@ -136,7 +136,7 @@ export function Footer() {
                 placeholder="Enter your email"
                 className="flex-1 rounded-md border border-gray-600 bg-gray-800 px-4 py-2 text-white placeholder-gray-400 focus:border-tc-primary focus:outline-none"
               />
-              <button className="rounded-md bg-tc-primary px-6 py-2 font-medium transition-colors hover:bg-tc-primary/90">
+              <button className="rounded-md bg-tc-primary px-6 py-2 font-medium transition-all duration-300 hover:rotate-1 hover:scale-105 hover:bg-tc-primary/90 hover:shadow-lg hover:shadow-tc-primary/30">
                 Subscribe
               </button>
             </div>
@@ -156,12 +156,12 @@ export function Footer() {
                 <Link
                   key={social.label}
                   href={social.href}
-                  className="text-gray-300 transition-colors hover:text-white"
+                  className="group relative rounded-lg bg-gray-800/50 p-2 text-gray-300 transition-all duration-300 hover:scale-110 hover:bg-tc-primary hover:text-white hover:shadow-lg hover:shadow-tc-primary/25"
                   aria-label={social.label}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <social.icon className="h-5 w-5" />
+                  <social.icon className="h-5 w-5 transition-transform duration-300 group-hover:rotate-12" />
                 </Link>
               ))}
             </div>
@@ -170,13 +170,13 @@ export function Footer() {
             <div className="flex items-center space-x-6 text-sm">
               <Link
                 href="#"
-                className="text-gray-300 transition-colors hover:text-white"
+                className="text-gray-300 transition-all duration-300 hover:rotate-1 hover:scale-110 hover:text-white"
               >
                 Privacy Policy
               </Link>
               <Link
                 href="#"
-                className="text-gray-300 transition-colors hover:text-white"
+                className="text-gray-300 transition-all duration-300 hover:rotate-1 hover:scale-110 hover:text-white"
               >
                 Terms of Service
               </Link>
