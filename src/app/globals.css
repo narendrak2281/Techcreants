@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 231 39% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 231 39% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 231 39% 20%;
+
+    --primary: 196 89% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 216 100% 46%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 212 100% 97%;
+    --muted-foreground: 231 20% 45%;
+
+    --accent: 301 68% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 196 89% 55%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 231 39% 8%;
+    --foreground: 212 100% 97%;
+
+    --card: 231 39% 12%;
+    --card-foreground: 212 100% 97%;
+
+    --popover: 231 39% 12%;
+    --popover-foreground: 212 100% 97%;
+
+    --primary: 196 89% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 216 100% 46%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 231 39% 15%;
+    --muted-foreground: 212 50% 60%;
+
+    --accent: 301 68% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 231 39% 15%;
+    --input: 231 39% 15%;
+    --ring: 196 89% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background font-body text-foreground;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(2rem);
+    transition:
+      opacity 0.8s ease-out,
+      transform 0.8s ease-out;
+  }
+
+  .animate-on-scroll.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-tc-primary via-tc-secondary to-tc-accent bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply border border-white/20 bg-white/90 backdrop-blur-md;
+  }
+
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+
+  .container-custom {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-tc-surface;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-tc-primary;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-tc-secondary;
+}
+
+/* Focus styles for accessibility */
+.focus-visible {
+  @apply outline-none ring-2 ring-tc-primary ring-offset-2;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
