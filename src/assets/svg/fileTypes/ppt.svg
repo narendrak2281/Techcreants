@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ppt" transform="translate(-1216 -2841)">
+    <rect id="Rectangle_1487" data-name="Rectangle 1487" width="24" height="24" transform="translate(1216 2841)" fill="#810b0b" opacity="0"/>
+    <g id="ppt-f" transform="translate(1220.52 2842.999)">
+      <path id="Path_3336" data-name="Path 3336" d="M102.377,0h6.687l5.668,5.908V17.4a2.6,2.6,0,0,1-2.6,2.6h-9.756a2.6,2.6,0,0,1-2.6-2.6V2.6a2.6,2.6,0,0,1,2.6-2.6Z" transform="translate(-99.773 0)" fill="#e03303"/>
+      <g id="Group_2790" data-name="Group 2790" transform="translate(3.144 0)">
+        <path id="Path_3337" data-name="Path 3337" d="M467.219,0V5.863h5.673Z" transform="translate(-461.076)" fill="#fff" opacity="0.302"/>
+        <path id="Path_3338" data-name="Path 3338" d="M224.166,426.059v-3.634h1.544a1.284,1.284,0,0,1,.915.32,1.22,1.22,0,0,1,0,1.689,1.3,1.3,0,0,1-.915.315h-.62v1.31Zm.925-2.1h.515a.494.494,0,0,0,.325-.095.347.347,0,0,0,.11-.275.34.34,0,0,0-.11-.275.5.5,0,0,0-.325-.1h-.515Zm2.264,2.1v-3.634H228.9a1.284,1.284,0,0,1,.915.32,1.22,1.22,0,0,1,0,1.689,1.3,1.3,0,0,1-.915.315h-.615v1.31Zm.93-2.1h.51a.485.485,0,0,0,.325-.095.351.351,0,0,0,.115-.275.343.343,0,0,0-.115-.275.485.485,0,0,0-.325-.1h-.51Zm3.2,2.1v-2.844h-1.035v-.79h3v.79h-1.04v2.844Z" transform="translate(-224.166 -411.749)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

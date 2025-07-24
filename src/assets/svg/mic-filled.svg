@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="mic-filled" transform="translate(-348 -468)">
+    <rect id="Rectangle_1292" data-name="Rectangle 1292" width="24" height="24" transform="translate(348 468)" fill="#fff" opacity="0"/>
+    <path id="mic-filled-f" d="M18.25,11a.75.75,0,0,1,.743.648l.007.1v.5a6.75,6.75,0,0,1-6.249,6.732V21.25a.75.75,0,0,1-1.493.1l-.007-.1V18.982A6.751,6.751,0,0,1,5,12.486l0-.236v-.5a.75.75,0,0,1,1.493-.1l.007.1v.5A5.25,5.25,0,0,0,11.534,17.5l.216,0h.5A5.25,5.25,0,0,0,17.5,12.466l0-.216v-.5A.75.75,0,0,1,18.25,11ZM12,2a4,4,0,0,1,4,4v6a4,4,0,0,1-8,0V6A4,4,0,0,1,12,2Z" transform="translate(348 468)" fill="#212121"/>
+  </g>
+</svg>

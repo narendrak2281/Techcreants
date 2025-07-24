@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="warning-filled" transform="translate(-224 -220)">
+    <rect id="Rectangle_1292" data-name="Rectangle 1292" width="24" height="24" transform="translate(224 220)" fill="#e08316" opacity="0"/>
+    <path id="warning-filled-f" d="M10.9,2.782a2.248,2.248,0,0,1,2.973.74l.083.138,7.753,14A2.248,2.248,0,0,1,19.9,20.989l-.154.005H4.24A2.248,2.248,0,0,1,2.2,17.8l.073-.143,7.751-14A2.248,2.248,0,0,1,10.9,2.782Zm1.091,13.209a1,1,0,1,0,1,1A1,1,0,0,0,11.992,15.991Zm0-8A1,1,0,0,0,11,8.877l-.007.117,0,5,.007.117a1,1,0,0,0,1.985,0l.007-.117,0-5-.007-.117A1,1,0,0,0,11.99,7.994Z" transform="translate(224 220.5)" fill="#e08316"/>
+  </g>
+</svg>

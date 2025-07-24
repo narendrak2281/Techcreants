@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="note" transform="translate(-224 -2965)">
+    <rect id="Rectangle_1487" data-name="Rectangle 1487" width="24" height="24" transform="translate(224 2965)" fill="#810b0b" opacity="0"/>
+    <g id="note-f" transform="translate(228.518 2966.996)">
+      <g id="Vrstva_x0020_1_23_" transform="translate(0 0)">
+        <path id="Path_3351" data-name="Path 3351" d="M102.355,0h6.692l5.671,5.911v11.5a2.607,2.607,0,0,1-2.6,2.6h-9.761a2.6,2.6,0,0,1-2.6-2.6V2.6a2.6,2.6,0,0,1,2.6-2.6Z" transform="translate(-99.753 0)" fill="#251d36"/>
+        <g id="Group_2795" data-name="Group 2795" transform="translate(4.404 0)">
+          <path id="Path_3352" data-name="Path 3352" d="M467.136,0V5.862h5.677Z" transform="translate(-462.252)" fill="#fff" opacity="0.302"/>
+          <path id="Path_3353" data-name="Path 3353" d="M279.669,380.627H274.4a.44.44,0,1,0,0,.88h5.271a.44.44,0,1,0,0-.88Zm0,1.759H274.4a.44.44,0,1,0,0,.88h5.271a.44.44,0,1,0,0-.88Zm-2.682-5.271H274.4a.437.437,0,1,0,0,.873h2.589a.437.437,0,1,0,0-.873Zm2.682,1.753H274.4a.44.44,0,1,0,0,.88h5.271a.44.44,0,1,0,0-.88Z" transform="translate(-273.955 -367.582)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

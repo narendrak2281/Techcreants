@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.29" height="38.197" viewBox="0 0 44.29 38.197">
+  <g id="no-record" transform="translate(1)">
+    <path id="Path_3683" data-name="Path 3683" d="M210,0V5.093L213.513,6.3l4.763-1.205,1.4-2.829L218.276,0Z" transform="translate(-192.175)" fill="#bdd6fa"/>
+    <path id="Path_3684" data-name="Path 3684" d="M324.688,8.417,316.3,0h-8.8V5.093L319.6,33.1h5.093Z" transform="translate(-281.399)" fill="#bdd6fa"/>
+    <path id="Path_3685" data-name="Path 3685" d="M165,60V93.1h12.1l1.4-15.9L177.1,60Z" transform="translate(-150.995 -54.907)" fill="#e8f5ff"/>
+    <path id="Path_3686" data-name="Path 3686" d="M319.6,68.417h0l-5.319-3.1L311.21,60H307.5V93.1h12.1Z" transform="translate(-281.399 -54.907)" fill="#d8f1fb"/>
+    <path id="Path_3687" data-name="Path 3687" d="M359.578,68.417,351.193,60h0l0,8.417Z" transform="translate(-321.381 -54.907)" fill="#bceaf9"/>
+    <path id="Path_3688" data-name="Path 3688" d="M6.5,390.953.746,396.711a2.546,2.546,0,0,0,3.6,3.6l5.758-5.758-.938-2.833Z" transform="translate(-1 -367.921)" fill="#474f54"/>
+    <g id="Group_3218" data-name="Group 3218" transform="translate(28.011 30.589)">
+      <g id="Group_3217" data-name="Group 3217">
+        <path id="Path_3689" data-name="Path 3689" d="M330,360.377h5.093v2H330Z" transform="translate(-330 -360.377)" fill="#3481f3"/>
+      </g>
+    </g>
+    <g id="Group_3220" data-name="Group 3220" transform="translate(28.011 25.497)">
+      <g id="Group_3219" data-name="Group 3219">
+        <path id="Path_3690" data-name="Path 3690" d="M330,300.377h5.093v2H330Z" transform="translate(-330 -300.377)" fill="#3481f3"/>
+      </g>
+    </g>
+    <g id="Group_3222" data-name="Group 3222" transform="translate(28.011 20.404)">
+      <g id="Group_3221" data-name="Group 3221">
+        <path id="Path_3691" data-name="Path 3691" d="M330,240.377h5.093v2H330Z" transform="translate(-330 -240.377)" fill="#3481f3"/>
+      </g>
+    </g>
+    <circle id="Ellipse_329" data-name="Ellipse 329" cx="8.764" cy="8.764" r="8.764" transform="translate(4.052 9.968)" fill="#3481f3"/>
+    <circle id="Ellipse_330" data-name="Ellipse 330" cx="6" cy="6" r="6" transform="translate(6.817 12.732)" fill="#ecf9fb"/>
+  </g>
+</svg>
